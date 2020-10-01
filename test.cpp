@@ -19,15 +19,15 @@ typedef pair< int ,int > pii;
  
  
 int main() 
-{   stack<int> s;
-    s.push(1);
-    s.push(2);
-    s.push(3);
-    s.push(4);
+{   stack<int> st;
+    st.push(1);
+    st.push(2);
+    st.push(3);
+    st.push(4);
     cout<<endl<<"stack :";
-            while(!s.empty()){
-                cout<<s.top()<<" ";
-                s.pop();
+            while(!st.empty()){
+                cout<<st.top()<<" ";
+                st.pop();
             }
     return 0;
 }
